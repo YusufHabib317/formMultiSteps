@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Ubuntu";
+    src: url("../src/assets/multiStepForm/fonts/Ubuntu-Regular.ttf");
+  }
+  :root {
+    --color-bg-base: 59, 70, 100;
+    --color-bg-button: 234, 227, 219;
+    --color-bg-show: 24, 31, 50;
+    --color-bg-calc: 37, 45, 68;
+    --color-bg-eq: 209, 63, 48;
+    --color-number-button: 68, 74, 87;
+    --color-bg-del-reset: 59, 70, 100;
+    --color-txt-del-reset: 245, 255, 255;
+    --color-txt-show: 255, 255, 255;
+    --color-txt-button: 68, 74, 87;
+    --color-text-eq: 245, 255, 255;
+    --color-shadow-numb: 177, 163, 152;
+    --color-shadow-eq: 148, 38, 26;
+  }
+  .theme-light {
+    --color-bg-base: 230, 230, 230;
+    --color-bg-button: 229, 228, 224;
+    --color-bg-show: 238, 238, 238;
+    --color-bg-calc: 211, 205, 205;
+    --color-bg-eq: 200, 84, 1;
+    --color-bg-del-reset: 56, 129, 135;
+    --color-txt-del-reset: 245, 255, 255;
+    --color-number-button: 56, 56, 46;
+    --color-txt-show: 56, 57, 48;
+    --color-txt-button: 56, 57, 48;
+    --color-text-eq: 245, 255, 255;
+    --color-shadow-numb: 177, 163, 152;
+    --color-shadow-eq: 138, 55, 0;
+  }
+  .theme-purple {
+    --color-bg-base: 23, 6, 42;
+    --color-bg-button: 51, 27, 77;
+    --color-bg-show: 51, 27, 77;
+    --color-bg-calc: 30, 8, 54;
+    --color-bg-eq: 0, 222, 207;
+    --color-bg-del-reset: 86, 7, 124;
+    --color-number-button: 255, 233, 84;
+    --color-txt-show: 255, 231, 64;
+    --color-txt-button: 254, 232, 61;
+    --color-text-eq: 6, 36, 41;
+    --color-shadow-numb: 194, 21, 248;
+    --color-shadow-eq: 112, 252, 243;
+  }
+}
+
+/* :root {
+  --color-bg-base: rgba(59, 70, 100, 1);
+  --color-bg-button: rgba(234, 227, 219, 1);
+  --color-bg-show: rgba(24, 31, 50, 1);
+  --color-bg-calc: rgba(37, 45, 68, 1);
+  --color-bg-eq: rgba(209, 63, 48, 1);
+  --color-number-button: rgba(68, 74, 87, 1);
+  --color-bg-del-reset: rgba(59, 70, 100, 1);
+  --color-txt-del-reset: rgba(245, 255, 255, 1);
+  --color-txt-show: rgba(255, 255, 255, 1);
+  --color-txt-button: rgba(68, 74, 87, 1);
+  --color-text-eq: rgba(245, 255, 255, 1);
+}
+.theme-light {
+  --color-bg-base: #e6e6e6;
+  --color-bg-button: #e5e4e0;
+  --color-bg-show: #eeeeee;
+  --color-bg-calc: #d3cdcd;
+  --color-bg-eq: #c85401;
+  --color-bg-del-reset: #388187;
+  --color-txt-del-reset: #f5ffff;
+  --color-number-button: #38382e;
+  --color-txt-show: #383930;
+  --color-txt-button: #383930;
+  --color-text-eq: #f5ffff;
+}
+.theme-purple {
+  --color-bg-base: #17062a;
+  --color-bg-button: #331b4d;
+  --color-bg-show: #331b4d;
+  --color-bg-calc: #1e0836;
+  --color-bg-eq: #00decf;
+  --color-bg-del-reset: #56077c;
+  --color-number-button: #ffe954;
+  --color-txt-show: #ffe740;
+  --color-txt-button: #fee83d;
+  --color-text-eq: #062429;
+} */
