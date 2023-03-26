@@ -15,8 +15,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         sidebar:
-          // "url('./src/assets/multiStepForm/images/bg-sidebar-desktop.svg')",
-          "url('./src/assets/multiStepForm/images/bg-sidebar-desktop.svg')",
+          "url('../src/assets/multiStepForm/images/bg-sidebar-desktop.svg')",
       },
       colors: {
         darkBlue: "#132244",
